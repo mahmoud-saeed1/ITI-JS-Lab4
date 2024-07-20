@@ -3,9 +3,7 @@ const usernameInput = document.getElementById('username');
 const searchButton = document.getElementById('search');
 const userInfo = document.getElementById('user-info');
 
-/*~~~~~$ Global Variables $~~~~~*/
-
-/*~~~~~$ Handlers $~~~~~*/
+/*~~~~~$ Renders $~~~~~*/
 function displayUser(data) {
     userInfo.innerHTML = `
         <h2>${data.name}</h2>

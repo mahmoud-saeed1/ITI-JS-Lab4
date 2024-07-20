@@ -4,7 +4,7 @@ const weatherInfo = document.getElementById('weather-info');
 /*~~~~~$ Global Variables $~~~~~*/
 const apiKey = 'f11370ee45ad413fbfb122550242007';
 
-/*~~~~~$ Handlers $~~~~~*/
+/*~~~~~$ Renders $~~~~~*/
 function displayWeather(data) {
     const { location, current } = data;
     weatherInfo.innerHTML = `

@@ -1,9 +1,7 @@
 /*~~~~~$ Selectors $~~~~~*/
 const usersContainer = document.getElementById('users-container');
 
-/*~~~~~$ Global Variables $~~~~~*/
-
-/*~~~~~$ Handlers $~~~~~*/
+/*~~~~~$ Renders $~~~~~*/
 function displayUserWithPosts(user, posts) {
     const userElement = document.createElement('div');
     userElement.className = 'user';

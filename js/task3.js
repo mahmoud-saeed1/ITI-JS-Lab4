@@ -1,9 +1,7 @@
 /*~~~~~$ Selectors $~~~~~*/
 const postsContainer = document.getElementById('posts-container');
 
-/*~~~~~$ Global Variables $~~~~~*/
-
-/*~~~~~$ Handlers $~~~~~*/
+/*~~~~~$ Renders $~~~~~*/
 function displayPostWithComments(post, comments) {
     const postElement = document.createElement('div');
     postElement.className = 'post';
